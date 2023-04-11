@@ -24,4 +24,36 @@ body {
     font-family: 'Righteous', cursive;
 }
 
-.Title {}
+.menu-box li {
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+}
+
+#menu-link-1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 9999;
+}
+
+#menu-link-2 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 9999;
+}
+
+#menu-link-3 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: 9999;
+}
+
+#menu-link-4 {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    z-index: 9999;
+}
